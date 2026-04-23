@@ -14,20 +14,20 @@ Welcome to the House Price Prediction project! In this module, you'll walk throu
 
 ## Project Structure
 ```
-HousePrediction/
+HousePrediction/     
+│       
+├── Housing.csv                   
+├── house_price_model.pkl         
+├── scaler.pkl                    
+├── feature_columns.pkl          
 │
-├── Housing.csv                    # Raw dataset
-├── house_price_model.pkl          # Exported ML model
-├── scaler.pkl                     # StandardScaler for feature scaling
-├── feature_columns.pkl            # Saved feature column names
+├── HousePrediction.ipynb         
+├── app.py                         
+├── requirements.txt              
+├── run_app.bat                    
 │
-├── HousePrediction.ipynb          # Jupyter notebook with analysis and modeling
-├── app.py                         # Streamlit web application
-├── requirements.txt               # Python package dependencies
-├── run_app.bat                    # Batch file to launch app (Windows)
-│
-├── envvar/                        # Python virtual environment
-└── README.md                      # Project documentation
+├── envvar/                        
+└── README.md                      
 ```
 
 ## Phase 1: The Data Science Lifecycle
