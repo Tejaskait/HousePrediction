@@ -1,4 +1,3 @@
-Here's the README with all PDF-related content removed:
 
 ```markdown
 # End-to-End Data Science: House Price Prediction (Regression)
