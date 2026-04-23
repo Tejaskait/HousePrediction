@@ -1,16 +1,15 @@
-
+Here's the README with all PDF-related content removed:
 
 ```markdown
 # End-to-End Data Science: House Price Prediction (Regression)
 
-Welcome to the House Price Prediction project! In this module, you'll walk through the complete data science lifecycle—from raw data to a deployed web application with PDF report generation.
+Welcome to the House Price Prediction project! In this module, you'll walk through the complete data science lifecycle—from raw data to a deployed web application.
 
 ## Learning Objectives
 - Perform Exploratory Data Analysis (EDA) on real-world housing data
 - Clean data and engineer features (e.g., luxury score, room ratio, price per sqft)
 - Build and evaluate multiple regression models (Linear Regression, Random Forest, Gradient Boosting, etc.)
 - Deploy the trained model using Streamlit with a modern, interactive UI
-- Generate professional PDF reports of predictions
 
 ## Project Structure
 ```
@@ -60,7 +59,7 @@ If you encounter issues with the requirements file, install packages individuall
 
 ```bash
 python -m pip install --upgrade pip setuptools wheel
-pip install streamlit pandas numpy scikit-learn plotly pillow fpdf
+pip install streamlit pandas numpy scikit-learn plotly pillow
 ```
 
 ### 3. Run the Notebook
@@ -169,20 +168,11 @@ Open your web browser and go to: `http://localhost:8501`
 
 3. **Click "PREDICT HOUSE PRICE"** to get instant valuation
 
-4. **Download PDF Report:**
-   - Click "Download Detailed PDF Report"
-   - Receive a professionally formatted PDF with:
-     - Predicted price in Rupees, Crore, Lakh, and USD
-     - Complete property details
-     - Price range estimate (±15%)
-     - Feature importance analysis
-
 ### 4. Application Features
 
 - **Interactive UI:** Modern design with responsive layout
 - **Real-time Metrics:** Automatic calculation of derived features
 - **Data Visualization:** Price gauge chart and feature importance display
-- **PDF Report Generation:** Professional, downloadable reports
 - **Mobile Responsive:** Works on desktop, tablet, and mobile devices
 
 ## Quick Start Commands
@@ -195,9 +185,9 @@ python -m venv envvar
 envvar\Scripts\activate
 
 # 2. Install dependencies
-pip install streamlit pandas numpy scikit-learn plotly pillow fpdf
+pip install streamlit pandas numpy scikit-learn plotly pillow
 
-# 3. Train the model (run the notebook or script)
+# 3. Train the model (run the notebook)
 jupyter notebook HousePrediction.ipynb
 
 # 4. Launch the web app
@@ -243,7 +233,6 @@ If the app shows "Model files not found":
 | Visualization | Plotly, Matplotlib |
 | Machine Learning | Scikit-learn |
 | Web Framework | Streamlit |
-| PDF Generation | FPDF |
 | Environment | Python 3.8+ |
 
 ## Features at a Glance
@@ -253,7 +242,6 @@ If the app shows "Model files not found":
 - ✅ 7 different regression models compared
 - ✅ Best model (Random Forest) with 85% R² score
 - ✅ Interactive Streamlit web application
-- ✅ Professional PDF report generation
 - ✅ Real-time price estimation
 - ✅ Feature importance analysis
 - ✅ Price range estimation (±15%)
